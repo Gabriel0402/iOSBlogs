@@ -1,6 +1,4 @@
 
-
-You can use this code to switch rootviewcontroller
 ```
 - (void)switchRootViewController:(UIViewController *)aRootViewController animated:(BOOL)animated completion:(void(^)())completion
 {

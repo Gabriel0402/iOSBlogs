@@ -1,23 +1,12 @@
+This is a list of best websites for iOS developers.
 
-Use this source code when you want to switch rootviewcontroller in AppDelegate.
-
-```sh
-- (void)switchRootViewController:(UIViewController *)aRootViewController animated:(BOOL)animated completion:(void(^)())completion
-{
-    if (animated) {
-        [UIView transitionWithView:self.window duration:0.3 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
-            BOOL oldState = [UIView areAnimationsEnabled];
-            [UIView setAnimationsEnabled:NO];
-            self.window.rootViewController = aRootViewController;
-            [UIView setAnimationsEnabled:oldState];
-        } completion:^(BOOL finished) {
-            if (completion) completion();
-        }];
-    }
-    else {
-        self.window.rootViewController = aRootViewController;
-        if (completion) completion();
-    }
-}
-
-```
+* http://nshipster.com/
+* http://cocoalit.com/
+* http://www.objc.io/
+* http://www.raywenderlich.com/
+* http://nsscreencast.com/
+* http://code4app.net/ios/
+* https://www.cocoacontrols.com/
+* http://www.appcoda.com/
+* http://ios-blog.co.uk
+* http://www.thinkandbuild.it/

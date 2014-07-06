@@ -1,7 +1,7 @@
 How do I declare a block (closure) in Swift
 =======
 
-###Swift bloc (closure) syntax
+###Swift block (closure) syntax
 ```objective-c
 { (parameters) -> returnType in
   statements
@@ -72,9 +72,13 @@ let blockName: TypeName = { (parameter) -> returnType in
                           }
 ```
 
+----------
 
+###Contact
+
+Follow me on Twitter: [@kietnv](https://twitter.com/kietnv)
 
 ###References
-1. [fuckingblocksyntax.com](http://fuckingblocksyntax.com/)
-2. [hayageek.com](http://hayageek.com/swift-blocks-tutorial/)
-3. [learnswift.io](http://www.learnswift.io/blog/2014/6/9/writing-completion-blocks-with-closures-in-swift)
+* [fuckingblocksyntax.com](http://fuckingblocksyntax.com/)
+* [hayageek.com](http://hayageek.com/swift-blocks-tutorial/)
+* [learnswift.io](http://www.learnswift.io/blog/2014/6/9/writing-completion-blocks-with-closures-in-swift)

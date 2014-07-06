@@ -71,3 +71,10 @@ let blockName: TypeName = { (parameter) -> returnType in
                              statements
                           }
 ```
+
+
+
+###References
+1. [fuckingblocksyntax.com](http://fuckingblocksyntax.com/)
+2. [hayageek.com](http://hayageek.com/swift-blocks-tutorial/)
+3. [learnswift.io](http://www.learnswift.io/blog/2014/6/9/writing-completion-blocks-with-closures-in-swift)
